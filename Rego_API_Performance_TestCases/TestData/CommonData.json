@@ -1,0 +1,40 @@
+{
+    "Teams_Message": {
+        "@type": "MessageCard",
+        "@context": "http://schema.org/extensions",
+        "themeColor": "0076D7",
+        "summary": "K6 Metrics",
+        "sections": [
+            {
+                "activityTitle": "K6 Metrics",
+                "activitySubtitle": "",
+                "activityImage": "",
+                "markdown": true
+            },
+            {
+                "startGroup": true,
+                "Type": "TREND",
+                "text": "<table bordercolor='black' border= '2'><thead><tr style = 'background-color : Teal; color: White'><th>Metrics</th><th>Type</th><th>Average</th><th>Minimum</th><th>Medium</th><th>Maximum</th><th>P(90)</th><th>P(95)</th><th>P(99)</th></tr></thead></thead><tbody>",
+                "text1": "</tbody></table>"
+            },
+            {
+                "startGroup": true,
+                "Type": "COUNTER",
+                "text": "<table bordercolor='black' border= '2'><thead><tr style = 'background-color : Teal; color: White'><th>Metrics</th><th>Type</th><th>Total Count</th><th>Rate</th></thead></thead><tbody>",
+                "text1": "</tbody></table>"
+            },
+            {
+                "startGroup": true,
+                "Type": "GAUGE",
+                "text": "<table bordercolor='black' border= '2'><thead><tr style = 'background-color : Teal; color: White'><th>Metrics</th><th>Type</th><th>Total Count</th><th>Min</th><th>Max</th></thead></thead><tbody>",
+                "text1": "</tbody></table>"
+            },
+            {
+                "startGroup": true,
+                "Type": "RATE",
+                "text": "<table bordercolor='black' border= '2'><thead><tr style = 'background-color : Teal; color: White'><th>Metrics</th><th>Type</th><th>Total</th><th>Passed</th><th>Failed</th></thead></thead><tbody>",
+                "text1": "</tbody></table>"
+            }
+        ]
+    }
+}
