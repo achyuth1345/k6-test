@@ -1,8 +1,8 @@
 // To import all the required packages.
 import { sleep } from 'k6';
 import { check } from 'k6';
-import * as AssetTypeMethods from '../CommonMethods/AssetTypeMethods.js';
-import * as CommonMethods from '../CommonMethods/CommonMethods.js';
+import * as AssetTypeMethods from 'CommonMethods/AssetTypeMethods.js';
+import * as CommonMethods from 'CommonMethods/CommonMethods.js';
 var resp = null;
 
 
